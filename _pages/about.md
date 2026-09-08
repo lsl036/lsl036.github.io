@@ -2,16 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href='https://csee.hnu.edu.cn/'>College of Computer Science and Electronic Engineering, Hunan University</a>  📧 lsl036@hnu.edu.cn.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: lin-shengle.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Changsha, Hunan Province</p>
+    <p>烈士公园</p>
+    <p>2026/04/12</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+我目前在湖南大学担任博士后（助理研究员），从事高性能计算与稀疏计算研究，主要关注 CPU 和 GPU 上基础算子、稀疏直接求解器、稀疏矩阵计算和 AI 工作流的优化工作。
+I am currently a postdoctoral researcher (Assistant Researcher) at Hunan University, where I conduct research in high-performance computing and sparse computing. My work primarily focuses on optimizing basic operators, sparse direct solvers, sparse matrix computations, and AI workflows on CPUs and GPUs.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+我的研究兴趣包括稀疏线性代数算子优化，并行计算，高性能计算，人工智能基础优化。
+My research interests include the optimization of sparse linear algebraic operators, parallel computing, high-performance computing, and AI infra.
