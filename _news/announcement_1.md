@@ -10,7 +10,7 @@ related_posts: false
 
 ---
 
-Sparse matrix-matrix multiplication is one of the most crucial kernels in linear algebra solvers, graph analytics, and machine learning workloads. 
+Sparse matrix-matrix multiplication is one of the most crucial kernels in linear algebra solvers, graph analytics, and machine learning workloads.
 The clustered row-row style has emerged as a favorable SpGEMM workflow because of its potentially good parallelism. 
 However, due to frequent data movement caused by irregular memory access, existing approaches often suffer from three issues: (1) workload imbalance and prohibitive preprocessing overhead, (2) unsatisfactory data locality, and (3) inefficient accumulation strategy.
 
