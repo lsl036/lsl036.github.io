@@ -97,19 +97,20 @@ keywords = {Adaptive batch-stream scheduling, chiplet-based core-cluster binding
 }
 
 @INPROCEEDINGS{11132896,
-  author={Lin, Shengle and Liu, Chubo and Ding, Yan and Zhou, Joey Tianyi and Li, Kenli and Yang, Wangdong},
-  booktitle={2025 62nd ACM/IEEE Design Automation Conference (DAC)}, 
-  title={SSpMV: A Sparsity-aware SpMV Framework Empowered by Multimodal Machine Learning}, 
-  year={2025},
-  volume={},
-  number={},
-  pages={1-7},
+  author   = {Lin, Shengle and Liu, Chubo and Ding, Yan and Zhou, Joey Tianyi and Li, Kenli and Yang, Wangdong},
+  booktitle= {2025 62nd ACM/IEEE Design Automation Conference (DAC)}, 
+  title    = {SSpMV: A Sparsity-aware SpMV Framework Empowered by Multimodal Machine Learning}, 
+  year     = {2025},
+  volume   = {},
+  number   = {},
+  pages    = {1-7},
   selected = {true},
-  doi = {10.1109/dac63849.2025.11132896},
-  url = {https://ieeexplore.ieee.org/document/11132896},
-  keywords={Accuracy;Machine learning algorithms;Scientific computing;Neural networks;Machine learning;Predictive models;Prediction algorithms;Libraries;Pattern recognition;Sparse matrices;Sparse Matrix;SpMV;Machine Learning},
-  doi={10.1109/DAC63849.2025.11132896},
-  pdf={DAC25.pdf},
+  doi      = {10.1109/dac63849.2025.11132896},
+  url      = {https://ieeexplore.ieee.org/document/11132896},
+  keywords = {Accuracy;Machine learning algorithms;Scientific computing;Neural networks;Machine learning;Predictive models;Prediction algorithms;Libraries;Pattern recognition;Sparse matrices;Sparse Matrix;SpMV;Machine Learning},
+  abstract = {Sparse Matrix-Vector Multiplication (SpMV) is an essential sparse operation in scientific computing and artificial intelligence. Efficiently adapting SpMV algorithms to diverse matrices and architectures requires a framework capable of accurately recognizing sparse patterns and selecting the optimal implementation. In this work, we introduce Sparsity-aware SpMV (SSpMV), a framework that integrates expert-designed features with multimodal representations to adaptively predict the best-performing algorithm and parameters. For this purpose, we design a multimodal neural network called MM-Adapter, to capture diverse modalities to represent the computational features of SpMV. Experimental results demonstrate that MMAdapter achieves the highest accuracy of 81.05%, outperforming existing SpMV prediction models. Furthermore, SSpMV consistently delivers substantial performance improvements over state-of-the-art sparse libraries across various multi-core platforms.},
+  doi       = {10.1109/DAC63849.2025.11132896},
+  pdf       = {DAC25.pdf},
   preview   = {SSpMV.png},
 }
 
@@ -122,7 +123,9 @@ keywords = {Adaptive batch-stream scheduling, chiplet-based core-cluster binding
   number={9},
   pages={1985-1997},
   keywords={Kernel;Performance evaluation;Registers;Optimization;Field programmable gate arrays;Parallel processing;Prefetching;Graphics processing units;Bayes methods;Tuners;OpenCL;GEMM;auto-tuning;Bayesian optimization;high-performance computing},
+  abstract = {OpenCL has become the favored framework for emerging heterogeneous devices and FPGAs, owing to its versatility and portability. However, OpenCL-based math libraries still face challenges in fully leveraging device performance. When deploying high-performance arithmetic applications on these devices, the most important hot function is General Matrix-matrix Multiplication (GEMM). This study presents a meticulously optimized OpenCL GEMM kernel. Our enhanced GEMM kernel emphasizes two key improvements: 1) a three-level double buffer pipeline that efficiently overlaps data fetching with floating-point computations; 2) a fine-grained prefetching strategy of private memory to increase device occupancy by optimizing register unit utilization. Furthermore, this work presents a Bayesian Optimization (BO) tuner for kernel auto-tuning. Experimental results demonstrate considerable optimization improvement and performance advantages achieved on diverse OpenCL devices. Additionally, the BO tuner demonstrates superior efficiency and robustness, outperforming contemporary tuning methods.},
   doi={10.1109/TPDS.2025.3587673},
+  url={https://ieeexplore.ieee.org/document/11077458/},
   pdf={TPDS25GEMM.pdf}
 }
 
