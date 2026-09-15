@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My paper was accepted by SC'26! :sparkles: :smile:"
-date: 2026-08-06 02:43:00-0400
+date: 2026-08-06 02:43:00+0800
 inline: false
 related_posts: false
 ---
@@ -22,4 +22,4 @@ Experimental results on multiple platforms show that LeSpGEMM significantly outp
 
 ---
 
-Github: https://github.com/lsl036/SparseOps
+[LeSpGEMM Repo](https://github.com/lsl036/SparseOps)

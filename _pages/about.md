@@ -22,9 +22,11 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
+# latest_posts:
+#   enabled: true
+#   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+#   limit: 3 # leave blank to include all the blog posts
 ---
 
 我目前在湖南大学担任博士后（助理研究员），从事高性能计算与稀疏计算研究，主要关注 CPU 和 GPU 上基础算子、稀疏直接求解器、稀疏矩阵计算和 AI 工作流的优化工作。我的研究兴趣包括稀疏线性代数算子优化，并行计算，高性能计算，人工智能基础优化。欢迎能独立思考、敢于尝试、动手能力强的同学加入课题组。
