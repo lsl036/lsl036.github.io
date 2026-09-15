@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Paper was accepted by SC' 26! emoji! :sparkles: :smile:
+title: "My paper was accepted by SC'26! :sparkles: :smile:"
 date: 2026-08-06 02:43:00-0400
 inline: false
 related_posts: false
