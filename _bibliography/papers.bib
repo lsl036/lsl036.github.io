@@ -196,3 +196,26 @@ series = {ICPP '26}
   doi      = {10.1109/TC.2026.3730889},
   pdf      = {TC26SSpMV.pdf}
 }
+
+@inproceedings{SC26LeSpGEMM,
+author    = {Lin, Shengle and Liu, ChuBo and Ding,Yan and Hu, YiKun and Yang, Wangdong and Li, Keqin and Li, Kenli},
+title     = {Accelerating SpGEMM Through Lightweight Clustering and Cache-Aware Accumulation},
+year      = {2026},
+isbn      = {9798319547897},
+publisher = {Institute of Electrical and Electronics Engineers},
+address   = {Chicago, IL, USA},
+url       = {https://sc26.conference-program.com/presentation/?id=pap346&sess=sess206},
+doi       = {},
+pdf       = {SC26preprint.pdf},
+abstract  = {Sparse matrix-matrix multiplication is one of the most crucial kernels in linear algebra solvers, graph analytics, and machine learning workloads. The clustered row-row style has emerged as a favorable SpGEMM workflow because of its potentially good parallelism. However, due to frequent data movement caused by irregular memory access, existing approaches often suffer from three issues: (1) workload imbalance and prohibitive preprocessing overhead, (2) unsatisfactory data locality, and (3) inefficient accumulation strategy.
+To this end, we propose LeSpGEMM, a Locality-enhanced SpGEMM algorithm. LeSpGEMM introduces a lightweight row-clustering method to improve spatial locality with near-linear complexity, and a cache-aware hybrid accumulation strategy to exploit data reuse across diverse sparse patterns. It further incorporates optimized kernels, including a SIMD-accelerated dense accumulator and an efficient hash-based accumulator. Experimental results on multiple platforms show that LeSpGEMM significantly outperforms six state-of-the-art implementations while maintaining low preprocessing overhead.},
+booktitle = {Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+keywords  = {SpGEMM, sparse matrices, parallel algorithms, linear algebra, clustering methods, multicore processing},
+location  = {Chicago, Illinois},
+series    = {SC '26},
+abbr       = {SC},
+preview    = {SC26LeSpGEMM.png},
+award_name = {HNU's Second SC Paper},
+award      = {This paper marks Hunan University's Second publication at the International Conference for High Performance Computing, Networking, Storage and Analysis (SC).},
+selected   = {true}
+}
